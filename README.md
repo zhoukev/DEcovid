@@ -8,6 +8,8 @@ Data was obtained from the covidtracking.com api, using the ```daily``` csv prov
 
 The data was processed in Python in order to combine daily data into cumulative case and death counts. Then, using ```plotly```, heatmaps were created for cumulative and daily positive case and death counts.
 
+![Sample Heatmap](/heatmap.png?raw=true "Sample Heatmap")
+
 ## Prediction - COVIDPrediction
 
 Predictions are made with ```scipy```'s ```curve_fit``` in Python. A standard exponential function was fitted to the data in order to obtain the predictions. Sample predictions are found in the {state}Predictions.csv files.
