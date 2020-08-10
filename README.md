@@ -9,6 +9,10 @@ Data was obtained from the covidtracking.com api, using the ```daily``` csv prov
 The data was processed in Python in order to combine daily data into cumulative case and death counts. Then, using ```plotly```, heatmaps were created for cumulative and daily positive case and death counts.
 
 ![cumulative positive](/cumuPositive.png?raw=true)
+![cumulative deaths](/cumuDeaths.png?raw=true)
+![daily positive](/dailyPositive.png?raw=true)
+![daily deaths](/dailyDeaths.png?raw=true)
+
 
 ## Prediction - COVIDPrediction
 
