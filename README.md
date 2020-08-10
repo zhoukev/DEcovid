@@ -17,3 +17,6 @@ The data was processed in Python with ```pandas``` in order to combine daily dat
 ## Prediction - COVIDPrediction
 
 Predictions are made with ```scipy```'s ```curve_fit``` in Python. A standard exponential function was fitted to the data in order to obtain the predictions. Sample predictions are found in the {state}Predictions.csv files.
+
+### Sample Fitted Curve
+![curve](/heatmaps/samplePrediction.png?raw=true)
